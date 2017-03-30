@@ -1,13 +1,13 @@
 # ShipApp
-First screen: 
-	Villein numeric system
+1.First screen: 
+...*Villein numeric system
 	
-Second screen:
-	- RLS#6 selection
-	- Coordinates input
+2.Second screen:
+....* RLS#6 selection
+....* Coordinates input
 	
-Third screen:
-	Tower order building
+3.Third screen:
+....*Tower order building
 
-Fourth screen:
-	Ship UI
+4.Fourth screen:
+....*Ship UI
