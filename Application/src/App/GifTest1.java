@@ -1,4 +1,4 @@
-package playgroundDropbox;
+package App;
 
 import java.awt.Graphics;
 import java.awt.Image;

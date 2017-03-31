@@ -1,4 +1,4 @@
-package playgroundDropbox;
+package App;
 
 import java.awt.EventQueue;
 
@@ -13,6 +13,8 @@ import java.awt.geom.*;
 import java.awt.geom.Ellipse2D.Double;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.AttributedCharacterIterator;
 import java.util.ArrayList;
 import java.util.List;
@@ -300,7 +302,13 @@ public class MainWindow extends JFrame {
 			}
 		};
 
-		URL blobImg = new URL("http://109.120.138.13/Quest/blob_texture.jpg");
+		URL blobImg = null;
+		try {
+			blobImg = new URL("http://109.120.138.13/Quest/blob_texture.jpg");
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		Image sourceImg = Toolkit.getDefaultToolkit().getImage(blobImg);
 		sourceImg.getWidth(myImageObserver);
 

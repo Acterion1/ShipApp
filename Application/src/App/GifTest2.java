@@ -1,4 +1,4 @@
-package playgroundDropbox;
+package App;
 import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.GridLayout;
