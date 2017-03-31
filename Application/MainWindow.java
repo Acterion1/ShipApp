@@ -300,7 +300,7 @@ public class MainWindow extends JFrame {
 			}
 		};
 
-		String blobImg = "blob_texture.jpg";
+		URL blobImg = new URL("http://109.120.138.13/Quest/blob_texture.jpg");
 		Image sourceImg = Toolkit.getDefaultToolkit().getImage(blobImg);
 		sourceImg.getWidth(myImageObserver);
 
